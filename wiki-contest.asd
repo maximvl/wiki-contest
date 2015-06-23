@@ -6,8 +6,9 @@
   :license "Specify license here"
   :depends-on (#:drakma
                #:alexandria
-               #:cl-speedy-queue
-               #:cl-html-parse)
+               #:cl-containers
+               #:cl-html-parse
+               #:percent-encoding)
   :serial t
   :components ((:file "package")
                (:file "wiki-contest")))
